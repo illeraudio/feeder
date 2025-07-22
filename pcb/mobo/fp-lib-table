@@ -1,6 +1,8 @@
 (fp_lib_table
+  (version 7)
   (lib (name "index")(type "KiCad")(uri "/Users/stephen/lumenpnp/lib/kicad/index.pretty")(options "")(descr ""))
-  (lib (name "feeder")(type "KiCad")(uri "/Users/stephen/feeder/lib/kicad/feeder.pretty")(options "")(descr ""))
   (lib (name "mfg")(type "KiCad")(uri "/Users/stephen/mfg/lib/kicad/mfg.pretty")(options "")(descr ""))
   (lib (name "kikit")(type "KiCad")(uri "/Users/stephen/lumenpnp/lib/kicad/kikit.pretty")(options "")(descr ""))
+  (lib (name "feeder")(type "KiCad")(uri "/home/vh/repos/opulo/feeder/lib/kicad/feeder.pretty")(options "")(descr ""))
+  (lib (name "Package_DFN_QFN")(type "KiCad")(uri "/home/vh/repos/kicad/kicad-footprints/Package_DFN_QFN.pretty")(options "")(descr ""))
 )
