@@ -286,10 +286,10 @@
                </nozzle>
             </nozzles>
             <actuators>
-               <actuator class="org.openpnp.machine.reference.ReferenceActuator" axis-X-id="AXS169824381580efcb" axis-Y-id="AXS16982438158c4660" axis-Z-id="AXS16982438158d0458" axis-rotation-id="AXS16b068df4e35374e" id="ACT171086c0660cfc3b" name="VAC1" value-type="Boolean" value-type-confirmed="true" default-on-double="0.0" default-on-string="" default-off-double="0.0" default-off-string="" interlock-actuator="false" driver-id="DRV16982438146c1dd4" coordinated-before-actuate="true" coordinated-after-actuate="false" coordinated-before-read="true" enabled-actuation="AssumeUnknown" homed-actuation="LeaveAsIs" disabled-actuation="LeaveAsIs" index="0">
+               <actuator class="org.openpnp.machine.reference.ReferenceActuator" axis-X-id="AXS169824381580efcb" axis-Y-id="AXS16982438158c4660" axis-Z-id="AXS16982438158d0458" axis-rotation-id="AXS16b068df4e35374e" version="1.1" id="ACT171086c0660cfc3b" name="VAC1" value-type="Boolean" value-type-confirmed="true" default-on-double="0.0" default-on-string="" default-off-double="0.0" default-off-string="" interlock-actuator="false" driver-id="DRV16982438146c1dd4" coordinated-before-actuate="true" coordinated-after-actuate="false" coordinated-before-read="true" coordinated-before-actuate-enum="WaitForStillstand" coordinated-after-actuate-enum="None" coordinated-before-read-enum="WaitForStillstand" enabled-actuation="AssumeUnknown" homed-actuation="LeaveAsIs" disabled-actuation="LeaveAsIs" index="0">
                   <head-offsets units="Millimeters" x="0.0" y="0.0" z="0.0" rotation="0.0"/>
                </actuator>
-               <actuator class="org.openpnp.machine.reference.ReferenceActuator" axis-X-id="AXS169824381580efcb" axis-Y-id="AXS16982438158c4660" axis-Z-id="AXS17108356271a68ac" axis-rotation-id="AXS17108288e61da5fb" id="ACT171086f27295ab60" name="VAC2" value-type="Boolean" value-type-confirmed="true" default-on-double="0.0" default-on-string="" default-off-double="0.0" default-off-string="" interlock-actuator="false" driver-id="DRV16982438146c1dd4" coordinated-before-actuate="true" coordinated-after-actuate="false" coordinated-before-read="true" enabled-actuation="AssumeUnknown" homed-actuation="LeaveAsIs" disabled-actuation="LeaveAsIs" index="0">
+               <actuator class="org.openpnp.machine.reference.ReferenceActuator" axis-X-id="AXS169824381580efcb" axis-Y-id="AXS16982438158c4660" axis-Z-id="AXS17108356271a68ac" axis-rotation-id="AXS17108288e61da5fb" version="1.1" id="ACT171086f27295ab60" name="VAC2" value-type="Boolean" value-type-confirmed="true" default-on-double="0.0" default-on-string="" default-off-double="0.0" default-off-string="" interlock-actuator="false" driver-id="DRV16982438146c1dd4" coordinated-before-actuate="true" coordinated-after-actuate="false" coordinated-before-read="true" coordinated-before-actuate-enum="WaitForStillstand" coordinated-after-actuate-enum="None" coordinated-before-read-enum="WaitForStillstand" enabled-actuation="AssumeUnknown" homed-actuation="LeaveAsIs" disabled-actuation="LeaveAsIs" index="0">
                   <head-offsets units="Millimeters" x="0.0" y="0.0" z="0.0" rotation="0.0"/>
                </actuator>
             </actuators>
@@ -357,135 +357,135 @@
       </heads>
       <signalers/>
       <feeders>
-         <feeder class="org.openpnp.machine.photon.PhotonFeeder" version="1.1" id="FDR17698c87752db70d" name="001380155055531020383037" enabled="true" part-id="R_0805_2012Metric-10K" retry-count="3" feed-retry-count="3" pick-retry-count="0" hardware-id="001380155055531020383037" part-pitch="4">
+         <feeder class="org.openpnp.machine.photon.PhotonFeeder" version="1.1" id="FDR17698c87752db70d" name="001380155055531020383037" enabled="true" part-id="R_0805_2012Metric-10K" retry-count="3" feed-retry-count="3" pick-retry-count="0" feed-options="Normal" hardware-id="001380155055531020383037" part-pitch="4" move-while-feeding="true">
             <location units="Millimeters" x="0.0" y="0.0" z="0.0" rotation="0.0"/>
             <offset units="Millimeters" x="0.0" y="0.0" z="0.0" rotation="0.0"/>
          </feeder>
-         <feeder class="org.openpnp.machine.photon.PhotonFeeder" version="1.1" id="FDR17698c8785b338fc" name="000B00185055530420383037" enabled="true" part-id="C_0805_2012Metric-15p" retry-count="3" feed-retry-count="3" pick-retry-count="0" hardware-id="000B00185055530420383037" part-pitch="4">
+         <feeder class="org.openpnp.machine.photon.PhotonFeeder" version="1.1" id="FDR17698c8785b338fc" name="000B00185055530420383037" enabled="true" part-id="C_0805_2012Metric-15p" retry-count="3" feed-retry-count="3" pick-retry-count="0" feed-options="Normal" hardware-id="000B00185055530420383037" part-pitch="4" move-while-feeding="true">
             <location units="Millimeters" x="0.0" y="0.0" z="0.0" rotation="0.0"/>
             <offset units="Millimeters" x="0.0" y="0.0" z="0.0" rotation="0.0"/>
          </feeder>
-         <feeder class="org.openpnp.machine.photon.PhotonFeeder" version="1.1" id="FDR17698c878f98b511" name="0016001C5055531020383037" enabled="true" part-id="R_0805_2012Metric-470" retry-count="3" feed-retry-count="3" pick-retry-count="0" hardware-id="0016001C5055531020383037" part-pitch="4">
+         <feeder class="org.openpnp.machine.photon.PhotonFeeder" version="1.1" id="FDR17698c878f98b511" name="0016001C5055531020383037" enabled="true" part-id="R_0805_2012Metric-470" retry-count="3" feed-retry-count="3" pick-retry-count="0" feed-options="Normal" hardware-id="0016001C5055531020383037" part-pitch="4" move-while-feeding="true">
             <location units="Millimeters" x="0.0" y="0.0" z="0.0" rotation="0.0"/>
             <offset units="Millimeters" x="-0.0" y="0.0" z="0.0" rotation="0.0"/>
          </feeder>
-         <feeder class="org.openpnp.machine.photon.PhotonFeeder" version="1.1" id="FDR17730988fe36d514" name="001280035055531020383037" enabled="true" part-id="1TS003B-1400-3500A-CT-SW1" retry-count="3" feed-retry-count="3" pick-retry-count="0" hardware-id="001280035055531020383037" part-pitch="8">
+         <feeder class="org.openpnp.machine.photon.PhotonFeeder" version="1.1" id="FDR17730988fe36d514" name="001280035055531020383037" enabled="true" part-id="1TS003B-1400-3500A-CT-SW1" retry-count="3" feed-retry-count="3" pick-retry-count="0" feed-options="Normal" hardware-id="001280035055531020383037" part-pitch="8" move-while-feeding="true">
             <location units="Millimeters" x="0.0" y="0.0" z="0.0" rotation="0.0"/>
             <offset units="Millimeters" x="0.0" y="0.0" z="0.0" rotation="0.0"/>
          </feeder>
-         <feeder class="org.openpnp.machine.photon.PhotonFeeder" version="1.1" id="FDR17730988fecab165" name="002400065055530420383037" enabled="true" part-id="C_0805_2012Metric-4.7uF" retry-count="3" feed-retry-count="3" pick-retry-count="0" hardware-id="002400065055530420383037" part-pitch="4">
+         <feeder class="org.openpnp.machine.photon.PhotonFeeder" version="1.1" id="FDR17730988fecab165" name="002400065055530420383037" enabled="true" part-id="C_0805_2012Metric-4.7uF" retry-count="3" feed-retry-count="3" pick-retry-count="0" feed-options="Normal" hardware-id="002400065055530420383037" part-pitch="4" move-while-feeding="true">
             <location units="Millimeters" x="0.0" y="0.0" z="0.0" rotation="0.0"/>
             <offset units="Millimeters" x="0.0" y="0.0" z="0.0" rotation="0.0"/>
          </feeder>
-         <feeder class="org.openpnp.machine.photon.PhotonFeeder" version="1.1" id="FDR17730988ff48c5c0" name="002400115055530420383037" enabled="true" part-id="C_0805_2012Metric-100n" retry-count="3" feed-retry-count="3" pick-retry-count="0" hardware-id="002400115055530420383037" part-pitch="4">
+         <feeder class="org.openpnp.machine.photon.PhotonFeeder" version="1.1" id="FDR17730988ff48c5c0" name="002400115055530420383037" enabled="true" part-id="C_0805_2012Metric-100n" retry-count="3" feed-retry-count="3" pick-retry-count="0" feed-options="Normal" hardware-id="002400115055530420383037" part-pitch="4" move-while-feeding="true">
             <location units="Millimeters" x="0.0" y="0.0" z="0.0" rotation="0.0"/>
             <offset units="Millimeters" x="0.0" y="0.0" z="0.0" rotation="0.0"/>
          </feeder>
-         <feeder class="org.openpnp.machine.reference.feeder.ReferenceTrayFeeder" version="1.1" id="FDR17730be9f2c9b722" name="Strip 01" enabled="true" part-id="L_6.3x6.3_H3-220uH" retry-count="3" feed-retry-count="3" pick-retry-count="0" tray-count-x="1" tray-count-y="10" feed-count="6">
+         <feeder class="org.openpnp.machine.reference.feeder.ReferenceTrayFeeder" version="1.1" id="FDR17730be9f2c9b722" name="Strip 01" enabled="true" part-id="L_6.3x6.3_H3-220uH" retry-count="3" feed-retry-count="3" pick-retry-count="0" feed-options="Normal" tray-count-x="1" tray-count-y="10" feed-count="6">
             <location units="Millimeters" x="10.004" y="199.98" z="1.8" rotation="0.0"/>
             <offsets units="Millimeters" x="0.0" y="-8.0" z="0.0" rotation="0.0"/>
          </feeder>
-         <feeder class="org.openpnp.machine.reference.feeder.ReferenceTrayFeeder" version="1.1" id="FDR17730c19c04e85a6" name="Strip 03" enabled="true" part-id="SOT-223-3_TabPin2-AP1117-33" retry-count="3" feed-retry-count="3" pick-retry-count="0" tray-count-x="1" tray-count-y="10" feed-count="6">
+         <feeder class="org.openpnp.machine.reference.feeder.ReferenceTrayFeeder" version="1.1" id="FDR17730c19c04e85a6" name="Strip 03" enabled="true" part-id="SOT-223-3_TabPin2-AP1117-33" retry-count="3" feed-retry-count="3" pick-retry-count="0" feed-options="Normal" tray-count-x="1" tray-count-y="10" feed-count="6">
             <location units="Millimeters" x="40.004" y="199.58" z="1.8" rotation="180.0"/>
             <offsets units="Millimeters" x="0.0" y="-8.0" z="0.0" rotation="0.0"/>
          </feeder>
-         <feeder class="org.openpnp.machine.reference.feeder.ReferenceTrayFeeder" version="1.1" id="FDR17730c51f0b26ef2" name="Strip 05" enabled="true" part-id="QFN-32-No-Paste-STM32F031K6Ux" retry-count="3" feed-retry-count="3" pick-retry-count="0" tray-count-x="1" tray-count-y="10" feed-count="6">
+         <feeder class="org.openpnp.machine.reference.feeder.ReferenceTrayFeeder" version="1.1" id="FDR17730c51f0b26ef2" name="Strip 05" enabled="true" part-id="QFN-32-No-Paste-STM32F031K6Ux" retry-count="3" feed-retry-count="3" pick-retry-count="0" feed-options="Normal" tray-count-x="1" tray-count-y="10" feed-count="6">
             <location units="Millimeters" x="68.804" y="200.08" z="3.4" rotation="0.0"/>
             <offsets units="Millimeters" x="0.0" y="-8.0" z="0.0" rotation="0.0"/>
          </feeder>
-         <feeder class="org.openpnp.machine.reference.feeder.ReferenceTrayFeeder" version="1.1" id="FDR17730d2608db92da" name="Strip 06" enabled="true" part-id="Crystal_SMD_3225-4Pin_3.2x2.5mm_HandSoldering-8MHz" retry-count="3" feed-retry-count="3" pick-retry-count="0" tray-count-x="1" tray-count-y="20" feed-count="6">
+         <feeder class="org.openpnp.machine.reference.feeder.ReferenceTrayFeeder" version="1.1" id="FDR17730d2608db92da" name="Strip 06" enabled="true" part-id="Crystal_SMD_3225-4Pin_3.2x2.5mm_HandSoldering-8MHz" retry-count="3" feed-retry-count="3" pick-retry-count="0" feed-options="Normal" tray-count-x="1" tray-count-y="20" feed-count="6">
             <location units="Millimeters" x="84.004" y="200.58" z="1.8" rotation="0.0"/>
             <offsets units="Millimeters" x="0.0" y="-4.0" z="0.0" rotation="0.0"/>
          </feeder>
-         <feeder class="org.openpnp.machine.reference.feeder.ReferenceTrayFeeder" version="1.1" id="FDR17730e1a4249d819" name="Strip 19" enabled="true" part-id="C_0805_2012Metric-470pF" retry-count="3" feed-retry-count="3" pick-retry-count="0" tray-count-x="1" tray-count-y="20" feed-count="6">
+         <feeder class="org.openpnp.machine.reference.feeder.ReferenceTrayFeeder" version="1.1" id="FDR17730e1a4249d819" name="Strip 19" enabled="true" part-id="C_0805_2012Metric-470pF" retry-count="3" feed-retry-count="3" pick-retry-count="0" feed-options="Normal" tray-count-x="1" tray-count-y="20" feed-count="6">
             <location units="Millimeters" x="320.204" y="202.38" z="2.0" rotation="0.0"/>
             <offsets units="Millimeters" x="0.0" y="-4.0" z="0.0" rotation="0.0"/>
          </feeder>
-         <feeder class="org.openpnp.machine.reference.feeder.ReferenceTrayFeeder" version="1.1" id="FDR17733e8d4c6625f8" name="Strip 15" enabled="true" part-id="R_0805_2012Metric-220R" retry-count="3" feed-retry-count="3" pick-retry-count="0" tray-count-x="1" tray-count-y="20" feed-count="6">
+         <feeder class="org.openpnp.machine.reference.feeder.ReferenceTrayFeeder" version="1.1" id="FDR17733e8d4c6625f8" name="Strip 15" enabled="true" part-id="R_0805_2012Metric-220R" retry-count="3" feed-retry-count="3" pick-retry-count="0" feed-options="Normal" tray-count-x="1" tray-count-y="20" feed-count="6">
             <location units="Millimeters" x="275.904" y="201.88" z="2.0" rotation="0.0"/>
             <offsets units="Millimeters" x="0.0" y="-4.0" z="0.0" rotation="0.0"/>
          </feeder>
-         <feeder class="org.openpnp.machine.reference.feeder.ReferenceTrayFeeder" version="1.1" id="FDR1773484664bc7d07" name="Strip 20" enabled="true" part-id="R_0805_2012Metric-5.6k" retry-count="3" feed-retry-count="3" pick-retry-count="0" tray-count-x="1" tray-count-y="20" feed-count="6">
+         <feeder class="org.openpnp.machine.reference.feeder.ReferenceTrayFeeder" version="1.1" id="FDR1773484664bc7d07" name="Strip 20" enabled="true" part-id="R_0805_2012Metric-5.6k" retry-count="3" feed-retry-count="3" pick-retry-count="0" feed-options="Normal" tray-count-x="1" tray-count-y="20" feed-count="6">
             <location units="Millimeters" x="331.504" y="202.08" z="2.0" rotation="0.0"/>
             <offsets units="Millimeters" x="0.0" y="-4.0" z="0.0" rotation="0.0"/>
          </feeder>
-         <feeder class="org.openpnp.machine.reference.feeder.ReferenceTrayFeeder" version="1.1" id="FDR17734850ea341528" name="Strip 21" enabled="true" part-id="None" retry-count="3" feed-retry-count="3" pick-retry-count="0" tray-count-x="1" tray-count-y="24" feed-count="8">
+         <feeder class="org.openpnp.machine.reference.feeder.ReferenceTrayFeeder" version="1.1" id="FDR17734850ea341528" name="Strip 21" enabled="true" part-id="None" retry-count="3" feed-retry-count="3" pick-retry-count="0" feed-options="Normal" tray-count-x="1" tray-count-y="24" feed-count="8">
             <location units="Millimeters" x="342.404" y="202.48" z="2.0" rotation="0.0"/>
             <offsets units="Millimeters" x="0.0" y="-4.0" z="0.0" rotation="0.0"/>
          </feeder>
-         <feeder class="org.openpnp.machine.reference.feeder.ReferenceTrayFeeder" version="1.1" id="FDR1773485b9a3ed63b" name="Strip 22" enabled="true" part-id="AVX-9155-005-541-SPRING_FINGERS" retry-count="3" feed-retry-count="3" pick-retry-count="0" tray-count-x="1" tray-count-y="10" feed-count="4">
+         <feeder class="org.openpnp.machine.reference.feeder.ReferenceTrayFeeder" version="1.1" id="FDR1773485b9a3ed63b" name="Strip 22" enabled="true" part-id="AVX-9155-005-541-SPRING_FINGERS" retry-count="3" feed-retry-count="3" pick-retry-count="0" feed-options="Normal" tray-count-x="1" tray-count-y="10" feed-count="4">
             <location units="Millimeters" x="364.204" y="198.08" z="1.8" rotation="180.0"/>
             <offsets units="Millimeters" x="0.0" y="-12.0" z="0.0" rotation="0.0"/>
          </feeder>
-         <feeder class="org.openpnp.machine.reference.feeder.ReferenceTrayFeeder" version="1.1" id="FDR177359accf38392e" name="Strip 17" enabled="true" part-id="R_0805_2012Metric-1k" retry-count="3" feed-retry-count="3" pick-retry-count="0" tray-count-x="1" tray-count-y="20" feed-count="6">
+         <feeder class="org.openpnp.machine.reference.feeder.ReferenceTrayFeeder" version="1.1" id="FDR177359accf38392e" name="Strip 17" enabled="true" part-id="R_0805_2012Metric-1k" retry-count="3" feed-retry-count="3" pick-retry-count="0" feed-options="Normal" tray-count-x="1" tray-count-y="20" feed-count="6">
             <location units="Millimeters" x="297.904" y="202.48" z="2.0" rotation="0.0"/>
             <offsets units="Millimeters" x="0.0" y="-4.0" z="0.0" rotation="0.0"/>
          </feeder>
-         <feeder class="org.openpnp.machine.reference.feeder.ReferenceTrayFeeder" version="1.1" id="FDR177390665b2b6d54" name="Strip 18" enabled="true" part-id="R_0805_2012Metric-39k" retry-count="3" feed-retry-count="3" pick-retry-count="0" tray-count-x="1" tray-count-y="20" feed-count="6">
+         <feeder class="org.openpnp.machine.reference.feeder.ReferenceTrayFeeder" version="1.1" id="FDR177390665b2b6d54" name="Strip 18" enabled="true" part-id="R_0805_2012Metric-39k" retry-count="3" feed-retry-count="3" pick-retry-count="0" feed-options="Normal" tray-count-x="1" tray-count-y="20" feed-count="6">
             <location units="Millimeters" x="309.104" y="202.58" z="2.0" rotation="0.0"/>
             <offsets units="Millimeters" x="0.0" y="-4.0" z="0.0" rotation="0.0"/>
          </feeder>
-         <feeder class="org.openpnp.machine.reference.feeder.ReferenceTrayFeeder" version="1.1" id="FDR1773908af834ad00" name="Strip 16" enabled="true" part-id="R_0805_2012Metric-0.33R" retry-count="3" feed-retry-count="3" pick-retry-count="0" tray-count-x="1" tray-count-y="20" feed-count="6">
+         <feeder class="org.openpnp.machine.reference.feeder.ReferenceTrayFeeder" version="1.1" id="FDR1773908af834ad00" name="Strip 16" enabled="true" part-id="R_0805_2012Metric-0.33R" retry-count="3" feed-retry-count="3" pick-retry-count="0" feed-options="Normal" tray-count-x="1" tray-count-y="20" feed-count="6">
             <location units="Millimeters" x="286.904" y="202.48" z="2.0" rotation="0.0"/>
             <offsets units="Millimeters" x="0.0" y="-4.0" z="0.0" rotation="0.0"/>
          </feeder>
-         <feeder class="org.openpnp.machine.reference.feeder.ReferenceTrayFeeder" version="1.1" id="FDR1773eb358019870c" name="Strip d" enabled="true" part-id="Molex_PicoBlade_53261-0671_1x06-1MP_P1.25mm_Horizontal-DRIVE_MOTOR" retry-count="3" feed-retry-count="3" pick-retry-count="0" tray-count-x="20" tray-count-y="1" feed-count="6">
+         <feeder class="org.openpnp.machine.reference.feeder.ReferenceTrayFeeder" version="1.1" id="FDR1773eb358019870c" name="Strip d" enabled="true" part-id="Molex_PicoBlade_53261-0671_1x06-1MP_P1.25mm_Horizontal-DRIVE_MOTOR" retry-count="3" feed-retry-count="3" pick-retry-count="0" feed-options="Normal" tray-count-x="20" tray-count-y="1" feed-count="6">
             <location units="Millimeters" x="63.7" y="416.5" z="8.4" rotation="-90.0"/>
             <offsets units="Millimeters" x="8.0" y="0.0" z="0.0" rotation="0.0"/>
          </feeder>
-         <feeder class="org.openpnp.machine.reference.feeder.ReferenceTrayFeeder" version="1.1" id="FDR177428f1b06c7aa8" name="Strip 07" enabled="true" part-id="D_SOD-123-1N5819" retry-count="3" feed-retry-count="3" pick-retry-count="0" tray-count-x="1" tray-count-y="20" feed-count="6">
+         <feeder class="org.openpnp.machine.reference.feeder.ReferenceTrayFeeder" version="1.1" id="FDR177428f1b06c7aa8" name="Strip 07" enabled="true" part-id="D_SOD-123-1N5819" retry-count="3" feed-retry-count="3" pick-retry-count="0" feed-options="Normal" tray-count-x="1" tray-count-y="20" feed-count="6">
             <location units="Millimeters" x="95.004" y="201.38" z="1.8" rotation="0.0"/>
             <offsets units="Millimeters" x="0.0" y="-4.0" z="0.0" rotation="0.0"/>
          </feeder>
-         <feeder class="org.openpnp.machine.reference.feeder.ReferenceTrayFeeder" version="1.1" id="FDR17742910cfba9203" name="Strip e" enabled="true" part-id="Molex_PicoBlade_53261-0271_1x02-1MP_P1.25mm_Horizontal-PEEL_MOTOR" retry-count="3" feed-retry-count="3" pick-retry-count="0" tray-count-x="20" tray-count-y="1" feed-count="6">
+         <feeder class="org.openpnp.machine.reference.feeder.ReferenceTrayFeeder" version="1.1" id="FDR17742910cfba9203" name="Strip e" enabled="true" part-id="Molex_PicoBlade_53261-0271_1x02-1MP_P1.25mm_Horizontal-PEEL_MOTOR" retry-count="3" feed-retry-count="3" pick-retry-count="0" feed-options="Normal" tray-count-x="20" tray-count-y="1" feed-count="6">
             <location units="Millimeters" x="64.7" y="393.6" z="3.4" rotation="-90.0"/>
             <offsets units="Millimeters" x="8.0" y="0.0" z="0.0" rotation="0.0"/>
          </feeder>
-         <feeder class="org.openpnp.machine.reference.feeder.ReferenceTrayFeeder" version="1.1" id="FDR1774c1d197211674" name="Strip 02" enabled="true" part-id="SOIC-8_3.9x4.9mm_P1.27mm-MC34063AD" retry-count="3" feed-retry-count="3" pick-retry-count="0" tray-count-x="1" tray-count-y="10" feed-count="6">
+         <feeder class="org.openpnp.machine.reference.feeder.ReferenceTrayFeeder" version="1.1" id="FDR1774c1d197211674" name="Strip 02" enabled="true" part-id="SOIC-8_3.9x4.9mm_P1.27mm-MC34063AD" retry-count="3" feed-retry-count="3" pick-retry-count="0" feed-options="Normal" tray-count-x="1" tray-count-y="10" feed-count="6">
             <location units="Millimeters" x="24.904" y="200.38" z="1.6" rotation="90.0"/>
             <offsets units="Millimeters" x="0.0" y="-8.0" z="0.0" rotation="0.0"/>
          </feeder>
-         <feeder class="org.openpnp.machine.reference.feeder.ReferenceTrayFeeder" version="1.1" id="FDR1774c1d5c39b022e" name="Strip 04" enabled="true" part-id="SOIC-8_3.9x4.9mm_P1.27mm-MAX3078E" retry-count="3" feed-retry-count="3" pick-retry-count="0" tray-count-x="1" tray-count-y="10" feed-count="6">
+         <feeder class="org.openpnp.machine.reference.feeder.ReferenceTrayFeeder" version="1.1" id="FDR1774c1d5c39b022e" name="Strip 04" enabled="true" part-id="SOIC-8_3.9x4.9mm_P1.27mm-MAX3078E" retry-count="3" feed-retry-count="3" pick-retry-count="0" feed-options="Normal" tray-count-x="1" tray-count-y="10" feed-count="6">
             <location units="Millimeters" x="55.004" y="199.78" z="1.6" rotation="90.0"/>
             <offsets units="Millimeters" x="0.0" y="-8.0" z="0.0" rotation="0.0"/>
          </feeder>
-         <feeder class="org.openpnp.machine.reference.feeder.ReferenceTrayFeeder" version="1.1" id="FDR1774c546f9da4970" name="Strip 08" enabled="true" part-id="D_SOD-123-MMSZ4684T1G" retry-count="3" feed-retry-count="3" pick-retry-count="0" tray-count-x="1" tray-count-y="20" feed-count="6">
+         <feeder class="org.openpnp.machine.reference.feeder.ReferenceTrayFeeder" version="1.1" id="FDR1774c546f9da4970" name="Strip 08" enabled="true" part-id="D_SOD-123-MMSZ4684T1G" retry-count="3" feed-retry-count="3" pick-retry-count="0" feed-options="Normal" tray-count-x="1" tray-count-y="20" feed-count="6">
             <location units="Millimeters" x="106.104" y="201.78" z="1.8" rotation="0.0"/>
             <offsets units="Millimeters" x="0.0" y="-4.0" z="0.0" rotation="0.0"/>
          </feeder>
-         <feeder class="org.openpnp.machine.reference.feeder.ReferenceTrayFeeder" version="1.1" id="FDR1774c61459fcd9c9" name="Strip 09" enabled="true" part-id="MHS110FRGBCT-LED_RGBA" retry-count="3" feed-retry-count="3" pick-retry-count="0" tray-count-x="1" tray-count-y="20" feed-count="6">
+         <feeder class="org.openpnp.machine.reference.feeder.ReferenceTrayFeeder" version="1.1" id="FDR1774c61459fcd9c9" name="Strip 09" enabled="true" part-id="MHS110FRGBCT-LED_RGBA" retry-count="3" feed-retry-count="3" pick-retry-count="0" feed-options="Normal" tray-count-x="1" tray-count-y="20" feed-count="6">
             <location units="Millimeters" x="117.304" y="201.78" z="1.8" rotation="180.0"/>
             <offsets units="Millimeters" x="0.0" y="-4.0" z="0.0" rotation="0.0"/>
          </feeder>
-         <feeder class="org.openpnp.machine.reference.feeder.ReferenceTrayFeeder" version="1.1" id="FDR1774c63eba271873" name="Strip 10" enabled="true" part-id="SOT-23-SM712_SOT23" retry-count="3" feed-retry-count="3" pick-retry-count="0" tray-count-x="1" tray-count-y="20" feed-count="6">
+         <feeder class="org.openpnp.machine.reference.feeder.ReferenceTrayFeeder" version="1.1" id="FDR1774c63eba271873" name="Strip 10" enabled="true" part-id="SOT-23-SM712_SOT23" retry-count="3" feed-retry-count="3" pick-retry-count="0" feed-options="Normal" tray-count-x="1" tray-count-y="20" feed-count="6">
             <location units="Millimeters" x="128.304" y="202.08" z="1.8" rotation="180.0"/>
             <offsets units="Millimeters" x="0.0" y="-4.0" z="0.0" rotation="0.0"/>
          </feeder>
-         <feeder class="org.openpnp.machine.reference.feeder.ReferenceTrayFeeder" version="1.1" id="FDR1774c6a0c7c88e9f" name="Strip 11" enabled="true" part-id="WSON-8-1EP_2x2mm_P0.5mm_EP0.9x1.6mm-DRV8837" retry-count="3" feed-retry-count="3" pick-retry-count="0" tray-count-x="1" tray-count-y="20" feed-count="12">
+         <feeder class="org.openpnp.machine.reference.feeder.ReferenceTrayFeeder" version="1.1" id="FDR1774c6a0c7c88e9f" name="Strip 11" enabled="true" part-id="WSON-8-1EP_2x2mm_P0.5mm_EP0.9x1.6mm-DRV8837" retry-count="3" feed-retry-count="3" pick-retry-count="0" feed-options="Normal" tray-count-x="1" tray-count-y="20" feed-count="12">
             <location units="Millimeters" x="139.504" y="202.28" z="1.6" rotation="0.0"/>
             <offsets units="Millimeters" x="0.0" y="-4.0" z="0.0" rotation="0.0"/>
          </feeder>
-         <feeder class="org.openpnp.machine.reference.feeder.ReferenceTrayFeeder" version="1.1" id="FDR1774c80d3b99e447" name="Strip 12" enabled="true" part-id="C_0805_2012Metric-10u" retry-count="3" feed-retry-count="3" pick-retry-count="0" tray-count-x="1" tray-count-y="20" feed-count="12">
+         <feeder class="org.openpnp.machine.reference.feeder.ReferenceTrayFeeder" version="1.1" id="FDR1774c80d3b99e447" name="Strip 12" enabled="true" part-id="C_0805_2012Metric-10u" retry-count="3" feed-retry-count="3" pick-retry-count="0" feed-options="Normal" tray-count-x="1" tray-count-y="20" feed-count="12">
             <location units="Millimeters" x="150.604" y="203.08" z="1.8" rotation="0.0"/>
             <offsets units="Millimeters" x="0.0" y="-4.0" z="0.0" rotation="0.0"/>
          </feeder>
-         <feeder class="org.openpnp.machine.reference.feeder.ReferenceTrayFeeder" version="1.1" id="FDR1774c9b7a88329ca" name="Strip 13" enabled="true" part-id="" retry-count="3" feed-retry-count="3" pick-retry-count="0" tray-count-x="1" tray-count-y="1" feed-count="0">
+         <feeder class="org.openpnp.machine.reference.feeder.ReferenceTrayFeeder" version="1.1" id="FDR1774c9b7a88329ca" name="Strip 13" enabled="true" part-id="" retry-count="3" feed-retry-count="3" pick-retry-count="0" feed-options="Normal" tray-count-x="1" tray-count-y="1" feed-count="0">
             <location units="Millimeters" x="160.404" y="200.68" z="3.2" rotation="0.0"/>
             <offsets units="Millimeters" x="0.0" y="-4.0" z="0.0" rotation="0.0"/>
          </feeder>
-         <feeder class="org.openpnp.machine.reference.feeder.ReferenceTrayFeeder" version="1.1" id="FDR1774c9fd378b8885" name="Strip 14" enabled="true" part-id="R_0805_2012Metric-20R" retry-count="3" feed-retry-count="3" pick-retry-count="0" tray-count-x="1" tray-count-y="20" feed-count="12">
+         <feeder class="org.openpnp.machine.reference.feeder.ReferenceTrayFeeder" version="1.1" id="FDR1774c9fd378b8885" name="Strip 14" enabled="true" part-id="R_0805_2012Metric-20R" retry-count="3" feed-retry-count="3" pick-retry-count="0" feed-options="Normal" tray-count-x="1" tray-count-y="20" feed-count="12">
             <location units="Millimeters" x="264.804" y="203.28" z="2.0" rotation="0.0"/>
             <offsets units="Millimeters" x="0.0" y="-4.0" z="0.0" rotation="0.0"/>
          </feeder>
-         <feeder class="org.openpnp.machine.reference.feeder.ReferenceTrayFeeder" version="1.1" id="FDR178f35d8459c45bd" name="Strip f" enabled="true" part-id="C_Elec_6.3x7.7-100uF" retry-count="3" feed-retry-count="3" pick-retry-count="0" tray-count-x="20" tray-count-y="1" feed-count="12">
+         <feeder class="org.openpnp.machine.reference.feeder.ReferenceTrayFeeder" version="1.1" id="FDR178f35d8459c45bd" name="Strip f" enabled="true" part-id="C_Elec_6.3x7.7-100uF" retry-count="3" feed-retry-count="3" pick-retry-count="0" feed-options="Normal" tray-count-x="20" tray-count-y="1" feed-count="12">
             <location units="Millimeters" x="66.1" y="374.7" z="3.2" rotation="-90.0"/>
             <offsets units="Millimeters" x="12.0" y="0.0" z="0.0" rotation="0.0"/>
          </feeder>
-         <feeder class="org.openpnp.machine.reference.feeder.ReferenceTrayFeeder" version="1.1" id="FDR178f35da980eecde" name="Strip g" enabled="true" part-id="C_Elec_6.3x7.7-100uF" retry-count="3" feed-retry-count="3" pick-retry-count="0" tray-count-x="20" tray-count-y="1" feed-count="0">
+         <feeder class="org.openpnp.machine.reference.feeder.ReferenceTrayFeeder" version="1.1" id="FDR178f35da980eecde" name="Strip g" enabled="true" part-id="C_Elec_6.3x7.7-100uF" retry-count="3" feed-retry-count="3" pick-retry-count="0" feed-options="Normal" tray-count-x="20" tray-count-y="1" feed-count="0">
             <location units="Millimeters" x="65.3" y="355.7" z="3.2" rotation="-90.0"/>
             <offsets units="Millimeters" x="12.0" y="0.0" z="0.0" rotation="0.0"/>
          </feeder>
-         <feeder class="org.openpnp.machine.photon.PhotonFeeder" version="1.1" id="FDR18559360a1f65384" name="002D000C5046570420333932" enabled="false" part-id="" retry-count="3" feed-retry-count="3" pick-retry-count="0" hardware-id="002D000C5046570420333932" part-pitch="4">
+         <feeder class="org.openpnp.machine.photon.PhotonFeeder" version="1.1" id="FDR18559360a1f65384" name="002D000C5046570420333932" enabled="false" part-id="" retry-count="3" feed-retry-count="3" pick-retry-count="0" feed-options="Normal" hardware-id="002D000C5046570420333932" part-pitch="4" move-while-feeding="true">
             <location units="Millimeters" x="0.0" y="0.0" z="0.0" rotation="0.0"/>
             <offset units="Millimeters" x="0.0" y="0.0" z="0.0" rotation="0.0"/>
          </feeder>
@@ -545,14 +545,14 @@
          </camera>
       </cameras>
       <actuators>
-         <actuator class="org.openpnp.machine.reference.ReferenceActuator" id="ACT1605385237291" name="LED" value-type="Boolean" value-type-confirmed="false" default-on-double="0.0" default-on-string="" default-off-double="0.0" default-off-string="" interlock-actuator="false" driver-id="DRV16982438146c1dd4" coordinated-before-actuate="true" coordinated-after-actuate="false" coordinated-before-read="true" enabled-actuation="AssumeUnknown" homed-actuation="LeaveAsIs" disabled-actuation="LeaveAsIs" index="0">
+         <actuator class="org.openpnp.machine.reference.ReferenceActuator" version="1.1" id="ACT1605385237291" name="LED" value-type="Boolean" value-type-confirmed="false" default-on-double="0.0" default-on-string="" default-off-double="0.0" default-off-string="" interlock-actuator="false" driver-id="DRV16982438146c1dd4" coordinated-before-actuate="true" coordinated-after-actuate="false" coordinated-before-read="true" coordinated-before-actuate-enum="WaitForStillstand" coordinated-after-actuate-enum="None" coordinated-before-read-enum="WaitForStillstand" enabled-actuation="AssumeUnknown" homed-actuation="LeaveAsIs" disabled-actuation="LeaveAsIs" index="0">
             <head-offsets units="Millimeters" x="0.0" y="0.0" z="0.0" rotation="0.0"/>
             <safe-z value="0.0" units="Millimeters"/>
          </actuator>
-         <actuator class="org.openpnp.machine.reference.ReferenceActuator" id="ACT170524c73c5ed540" name="IndexFeederData" value-type="Boolean" value-type-confirmed="false" default-on-double="0.0" default-on-string="" default-off-double="0.0" default-off-string="" interlock-actuator="false" coordinated-before-actuate="true" coordinated-after-actuate="false" coordinated-before-read="true" enabled-actuation="AssumeUnknown" homed-actuation="LeaveAsIs" disabled-actuation="LeaveAsIs" index="0">
+         <actuator class="org.openpnp.machine.reference.ReferenceActuator" version="1.1" id="ACT170524c73c5ed540" name="IndexFeederData" value-type="Boolean" value-type-confirmed="false" default-on-double="0.0" default-on-string="" default-off-double="0.0" default-off-string="" interlock-actuator="false" coordinated-before-actuate="true" coordinated-after-actuate="false" coordinated-before-read="true" coordinated-before-actuate-enum="WaitForStillstand" coordinated-after-actuate-enum="None" coordinated-before-read-enum="WaitForStillstand" enabled-actuation="AssumeUnknown" homed-actuation="LeaveAsIs" disabled-actuation="LeaveAsIs" index="0">
             <head-offsets units="Millimeters" x="0.0" y="0.0" z="0.0" rotation="0.0"/>
          </actuator>
-         <actuator class="org.openpnp.machine.reference.ReferenceActuator" id="ACT17698c85c992e18c" name="PhotonFeederData" value-type="Boolean" value-type-confirmed="false" default-on-double="0.0" default-on-string="" default-off-double="0.0" default-off-string="" interlock-actuator="false" coordinated-before-actuate="true" coordinated-after-actuate="false" coordinated-before-read="true" enabled-actuation="AssumeUnknown" homed-actuation="LeaveAsIs" disabled-actuation="LeaveAsIs" index="0">
+         <actuator class="org.openpnp.machine.reference.ReferenceActuator" version="1.1" id="ACT17698c85c992e18c" name="PhotonFeederData" value-type="Boolean" value-type-confirmed="false" default-on-double="0.0" default-on-string="" default-off-double="0.0" default-off-string="" interlock-actuator="false" coordinated-before-actuate="true" coordinated-after-actuate="false" coordinated-before-read="true" coordinated-before-actuate-enum="WaitForStillstand" coordinated-after-actuate-enum="None" coordinated-before-read-enum="WaitForStillstand" enabled-actuation="AssumeUnknown" homed-actuation="LeaveAsIs" disabled-actuation="LeaveAsIs" index="0">
             <head-offsets units="Millimeters" x="0.0" y="0.0" z="0.0" rotation="0.0"/>
          </actuator>
       </actuators>
@@ -576,6 +576,7 @@
                <text><![CDATA[G21 ; Set millimeters mode]]></text>
                <text><![CDATA[G90 ; Set absolute positioning mode]]></text>
                <text><![CDATA[M82 ; Set absolute mode for extruder]]></text>
+               <text><![CDATA[M18 S1800 ; Stepper inactivity timeout]]></text>
             </command>
             <command head-mountable-id="ACT170524c73c5ed540" type="ACTUATOR_READ_COMMAND">
                <text><![CDATA[M271 S0x{Value}]]></text>
@@ -698,6 +699,9 @@
             <command head-mountable-id="ACT17698c85c992e18c" type="ACTUATOR_READ_REGEX">
                <text><![CDATA[rs485-reply: (?<Value>.*)]]></text>
             </command>
+            <send-on-change-feed-rate send-on-change="false" relative-deviation="0.001" variable="FeedRate"/>
+            <send-on-change-acceleration send-on-change="false" relative-deviation="0.001" variable="Acceleration"/>
+            <send-on-change-jerk send-on-change="false" relative-deviation="0.001" variable="Jerk"/>
          </driver>
       </drivers>
       <discard-location units="Millimeters" x="27.896" y="39.282" z="30.0" rotation="0.0"/>
@@ -1232,8 +1236,8 @@
             <diameter-low value="0.0" units="Millimeters"/>
          </nozzle-tip>
       </nozzle-tips>
-      <pnp-job-processor class="org.openpnp.machine.reference.ReferencePnpJobProcessor" job-order="PartHeight" max-vision-retries="3" stepping-to-next-motion="true">
-         <planner class="org.openpnp.machine.reference.ReferencePnpJobProcessor$SimplePnpJobPlanner"/>
+      <pnp-job-processor class="org.openpnp.machine.reference.ReferencePnpJobProcessor" job-order="PartHeight" max-vision-retries="3" stepping-to-next-motion="true" optimize-multiple-nozzles="true" allow-immediate-nozzle-tip-calibration="false" fiducial-level="1" pre-rotate-all-nozzles="true">
+         <planner class="org.openpnp.machine.reference.ReferencePnpJobProcessor$SimplePnpJobPlanner" strategy="Minimize"/>
       </pnp-job-processor>
       <fiducial-locator class="org.openpnp.machine.reference.vision.ReferenceFiducialLocator" fiducial-vision-id="FVS_Default" enabled-averaging="true" repeat-fiducial-recognition="5">
          <max-distance value="700.0" units="Millimeters"/>
@@ -1243,11 +1247,17 @@
             <board-location-tolerance value="5.0" units="Millimeters"/>
          </tolerances>
       </fiducial-locator>
-      <motion-planner class="org.openpnp.machine.reference.driver.NullMotionPlanner" maximum-plan-history="60.0"/>
+      <motion-planner class="org.openpnp.machine.reference.driver.ReferenceAdvancedMotionPlanner" maximum-plan-history="60.0" allow-continuous-motion="true" allow-uncoordinated="false" diagnostics-enabled="false" interpolation-retiming="true" minimum-speed="0.05" show-approximation="true" to-mid-1-speed="1.0" to-mid-2-speed="1.0" to-end-speed="1.0" start-location-enabled="false" mid-1-location-enabled="false" mid-2-location-enabled="false" end-location-enabled="false" to-mid-1-safe-z="true" to-mid-2-safe-z="true" to-end-safe-z="true">
+         <start-location units="Millimeters" x="0.0" y="0.0" z="0.0" rotation="0.0"/>
+         <mid-location-1 units="Millimeters" x="0.0" y="0.0" z="0.0" rotation="0.0"/>
+         <mid-location-2 units="Millimeters" x="0.0" y="0.0" z="0.0" rotation="0.0"/>
+         <end-location units="Millimeters" x="0.0" y="0.0" z="0.0" rotation="0.0"/>
+      </motion-planner>
       <home-after-enabled>false</home-after-enabled>
       <park-after-homed>false</park-after-homed>
       <unsafe-Z-roaming-distance value="10.0" units="Millimeters"/>
       <pool-scripting-engines>false</pool-scripting-engines>
+      <auto-load-most-recent-job>false</auto-load-most-recent-job>
       <solutions show-indicator="true" target-milestone="Calibration">
          <dismissed-solutions class="java.util.HashSet">
             <string>8ea10eda4030b6f8579eea7956234ba0db2f4a12</string>

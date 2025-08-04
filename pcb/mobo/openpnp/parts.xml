@@ -1,34 +1,34 @@
 <openpnp-parts>
-   <part fiducial-vision-id="FVS_Default" id="FIDUCIAL-HOME" name="Homing Fiducial - Do Not Delete" height-units="Millimeters" height="0.0" package-id="FIDUCIAL-1X2" speed="1.0" pick-retry-count="0"/>
-   <part id="None" height-units="Millimeters" height="0.0" package-id="FIDUCIAL-1X2" speed="1.0" pick-retry-count="0"/>
-   <part id="C_0805_2012Metric-15p" height-units="Millimeters" height="0.6" package-id="C_0805_2012Metric" speed="1.0" pick-retry-count="0"/>
-   <part id="C_0805_2012Metric-100n" height-units="Millimeters" height="1.0" package-id="C_0805_2012Metric" speed="1.0" pick-retry-count="0"/>
-   <part id="C_0805_2012Metric-4.7uF" height-units="Millimeters" height="1.25" package-id="C_0805_2012Metric" speed="1.0" pick-retry-count="0"/>
-   <part id="C_0805_2012Metric-10u" height-units="Millimeters" height="1.25" package-id="C_0805_2012Metric" speed="1.0" pick-retry-count="0"/>
-   <part id="C_Elec_6.3x7.7-100uF" height-units="Millimeters" height="7.7" package-id="C_Elec_6.3x7.7" speed="1.0" pick-retry-count="0"/>
-   <part id="C_0805_2012Metric-470pF" height-units="Millimeters" height="0.78" package-id="C_0805_2012Metric" speed="1.0" pick-retry-count="0"/>
-   <part id="MHS110FRGBCT-LED_RGBA" height-units="Millimeters" height="1.0" package-id="MHS110FRGBCT" speed="1.0" pick-retry-count="0"/>
-   <part id="SOT-23-SM712_SOT23" height-units="Millimeters" height="1.1" package-id="SOT-23" speed="1.0" pick-retry-count="0"/>
-   <part id="D_SOD-123-1N5819" height-units="Millimeters" height="1.1" package-id="D_SOD-123" speed="1.0" pick-retry-count="0"/>
-   <part id="D_SOD-123-MMSZ4684T1G" height-units="Millimeters" height="1.1" package-id="D_SOD-123" speed="1.0" pick-retry-count="0"/>
-   <part id="Fiducial_1mm_Mask2mm-Fiducial" height-units="Millimeters" height="0.0" package-id="Fiducial_1mm_Mask2mm" speed="1.0" pick-retry-count="0"/>
-   <part id="Molex_PicoBlade_53261-0271_1x02-1MP_P1.25mm_Horizontal-PEEL_MOTOR" height-units="Millimeters" height="3.6" package-id="Molex_PicoBlade_53261-0271_1x02-1MP_P1.25mm_Horizontal" speed="1.0" pick-retry-count="0"/>
-   <part id="Molex_PicoBlade_53261-0671_1x06-1MP_P1.25mm_Horizontal-DRIVE_MOTOR" height-units="Millimeters" height="3.6" package-id="Molex_PicoBlade_53261-0671_1x06-1MP_P1.25mm_Horizontal" speed="1.0" pick-retry-count="0"/>
-   <part id="1TS003B-1400-3500A-CT-SW1" height-units="Millimeters" height="1.82" package-id="1TS003B-1400-3500A-CT" speed="1.0" pick-retry-count="0"/>
-   <part id="AVX-9155-005-541-SPRING_FINGERS" height-units="Millimeters" height="3.9" package-id="AVX-9155-005-541" speed="1.0" pick-retry-count="0"/>
-   <part id="L_6.3x6.3_H3-220uH" height-units="Millimeters" height="4.2" package-id="L_6.3x6.3_H3" speed="1.0" pick-retry-count="0"/>
-   <part id="R_0805_2012Metric-1k" height-units="Millimeters" height="0.5" package-id="R_0805_2012Metric" speed="1.0" pick-retry-count="0"/>
-   <part id="R_0805_2012Metric-470" height-units="Millimeters" height="0.5" package-id="R_0805_2012Metric" speed="1.0" pick-retry-count="0"/>
-   <part id="R_0805_2012Metric-10K" height-units="Millimeters" height="0.5" package-id="R_0805_2012Metric" speed="1.0" pick-retry-count="0"/>
-   <part id="R_0805_2012Metric-5.6k" height-units="Millimeters" height="0.5" package-id="R_0805_2012Metric" speed="1.0" pick-retry-count="0"/>
-   <part id="R_0805_2012Metric-39k" height-units="Millimeters" height="0.5" package-id="R_0805_2012Metric" speed="1.0" pick-retry-count="0"/>
-   <part id="R_0805_2012Metric-0.33R" height-units="Millimeters" height="0.6" package-id="R_0805_2012Metric" speed="1.0" pick-retry-count="0"/>
-   <part id="R_0805_2012Metric-220R" height-units="Millimeters" height="0.5" package-id="R_0805_2012Metric" speed="1.0" pick-retry-count="0"/>
-   <part id="R_0805_2012Metric-20R" height-units="Millimeters" height="0.5" package-id="R_0805_2012Metric" speed="1.0" pick-retry-count="0"/>
-   <part id="QFN-32-No-Paste-STM32F031K6Ux" height-units="Millimeters" height="0.55" package-id="QFN-32-No-Paste" speed="1.0" pick-retry-count="0"/>
-   <part id="SOT-223-3_TabPin2-AP1117-33" height-units="Millimeters" height="1.7" package-id="SOT-223-3_TabPin2" speed="1.0" pick-retry-count="0"/>
-   <part id="SOIC-8_3.9x4.9mm_P1.27mm-MC34063AD" height-units="Millimeters" height="1.6" package-id="SOIC-8_3.9x4.9mm_P1.27mm" speed="1.0" pick-retry-count="0"/>
-   <part id="SOIC-8_3.9x4.9mm_P1.27mm-MAX3078E" height-units="Millimeters" height="1.6" package-id="SOIC-8_3.9x4.9mm_P1.27mm" speed="1.0" pick-retry-count="0"/>
-   <part bottom-vision-id="BVS_Stock_R" id="WSON-8-1EP_2x2mm_P0.5mm_EP0.9x1.6mm-DRV8837" height-units="Millimeters" height="0.8" package-id="WSON-8-1EP_2x2mm_P0.5mm_EP0.9x1.6mm" speed="1.0" pick-retry-count="0"/>
-   <part id="Crystal_SMD_3225-4Pin_3.2x2.5mm_HandSoldering-8MHz" height-units="Millimeters" height="0.7" package-id="Crystal_SMD_3225-4Pin_3.2x2.5mm_HandSoldering" speed="1.0" pick-retry-count="0"/>
+   <part fiducial-vision-id="FVS_Default" id="FIDUCIAL-HOME" name="Homing Fiducial - Do Not Delete" height-units="Millimeters" height="0.0" through-board-depth-units="Millimeters" through-board-depth="0.0" package-id="FIDUCIAL-1X2" speed="1.0" pick-retry-count="0"/>
+   <part id="None" height-units="Millimeters" height="0.0" through-board-depth-units="Millimeters" through-board-depth="0.0" package-id="FIDUCIAL-1X2" speed="1.0" pick-retry-count="0"/>
+   <part id="C_0805_2012Metric-15p" height-units="Millimeters" height="0.6" through-board-depth-units="Millimeters" through-board-depth="0.0" package-id="C_0805_2012Metric" speed="1.0" pick-retry-count="0"/>
+   <part id="C_0805_2012Metric-100n" height-units="Millimeters" height="1.0" through-board-depth-units="Millimeters" through-board-depth="0.0" package-id="C_0805_2012Metric" speed="1.0" pick-retry-count="0"/>
+   <part id="C_0805_2012Metric-4.7uF" height-units="Millimeters" height="1.25" through-board-depth-units="Millimeters" through-board-depth="0.0" package-id="C_0805_2012Metric" speed="1.0" pick-retry-count="0"/>
+   <part id="C_0805_2012Metric-10u" height-units="Millimeters" height="1.25" through-board-depth-units="Millimeters" through-board-depth="0.0" package-id="C_0805_2012Metric" speed="1.0" pick-retry-count="0"/>
+   <part id="C_Elec_6.3x7.7-100uF" height-units="Millimeters" height="7.7" through-board-depth-units="Millimeters" through-board-depth="0.0" package-id="C_Elec_6.3x7.7" speed="1.0" pick-retry-count="0"/>
+   <part id="C_0805_2012Metric-470pF" height-units="Millimeters" height="0.78" through-board-depth-units="Millimeters" through-board-depth="0.0" package-id="C_0805_2012Metric" speed="1.0" pick-retry-count="0"/>
+   <part id="MHS110FRGBCT-LED_RGBA" height-units="Millimeters" height="1.0" through-board-depth-units="Millimeters" through-board-depth="0.0" package-id="MHS110FRGBCT" speed="1.0" pick-retry-count="0"/>
+   <part id="SOT-23-SM712_SOT23" height-units="Millimeters" height="1.1" through-board-depth-units="Millimeters" through-board-depth="0.0" package-id="SOT-23" speed="1.0" pick-retry-count="0"/>
+   <part id="D_SOD-123-1N5819" height-units="Millimeters" height="1.1" through-board-depth-units="Millimeters" through-board-depth="0.0" package-id="D_SOD-123" speed="1.0" pick-retry-count="0"/>
+   <part id="D_SOD-123-MMSZ4684T1G" height-units="Millimeters" height="1.1" through-board-depth-units="Millimeters" through-board-depth="0.0" package-id="D_SOD-123" speed="1.0" pick-retry-count="0"/>
+   <part id="Fiducial_1mm_Mask2mm-Fiducial" height-units="Millimeters" height="0.0" through-board-depth-units="Millimeters" through-board-depth="0.0" package-id="Fiducial_1mm_Mask2mm" speed="1.0" pick-retry-count="0"/>
+   <part id="Molex_PicoBlade_53261-0271_1x02-1MP_P1.25mm_Horizontal-PEEL_MOTOR" height-units="Millimeters" height="3.6" through-board-depth-units="Millimeters" through-board-depth="0.0" package-id="Molex_PicoBlade_53261-0271_1x02-1MP_P1.25mm_Horizontal" speed="1.0" pick-retry-count="0"/>
+   <part id="Molex_PicoBlade_53261-0671_1x06-1MP_P1.25mm_Horizontal-DRIVE_MOTOR" height-units="Millimeters" height="3.6" through-board-depth-units="Millimeters" through-board-depth="0.0" package-id="Molex_PicoBlade_53261-0671_1x06-1MP_P1.25mm_Horizontal" speed="1.0" pick-retry-count="0"/>
+   <part id="1TS003B-1400-3500A-CT-SW1" height-units="Millimeters" height="1.82" through-board-depth-units="Millimeters" through-board-depth="0.0" package-id="1TS003B-1400-3500A-CT" speed="1.0" pick-retry-count="0"/>
+   <part id="AVX-9155-005-541-SPRING_FINGERS" height-units="Millimeters" height="3.9" through-board-depth-units="Millimeters" through-board-depth="0.0" package-id="AVX-9155-005-541" speed="1.0" pick-retry-count="0"/>
+   <part id="L_6.3x6.3_H3-220uH" height-units="Millimeters" height="4.2" through-board-depth-units="Millimeters" through-board-depth="0.0" package-id="L_6.3x6.3_H3" speed="1.0" pick-retry-count="0"/>
+   <part id="R_0805_2012Metric-1k" height-units="Millimeters" height="0.5" through-board-depth-units="Millimeters" through-board-depth="0.0" package-id="R_0805_2012Metric" speed="1.0" pick-retry-count="0"/>
+   <part id="R_0805_2012Metric-470" height-units="Millimeters" height="0.5" through-board-depth-units="Millimeters" through-board-depth="0.0" package-id="R_0805_2012Metric" speed="1.0" pick-retry-count="0"/>
+   <part id="R_0805_2012Metric-10K" height-units="Millimeters" height="0.5" through-board-depth-units="Millimeters" through-board-depth="0.0" package-id="R_0805_2012Metric" speed="1.0" pick-retry-count="0"/>
+   <part id="R_0805_2012Metric-5.6k" height-units="Millimeters" height="0.5" through-board-depth-units="Millimeters" through-board-depth="0.0" package-id="R_0805_2012Metric" speed="1.0" pick-retry-count="0"/>
+   <part id="R_0805_2012Metric-39k" height-units="Millimeters" height="0.5" through-board-depth-units="Millimeters" through-board-depth="0.0" package-id="R_0805_2012Metric" speed="1.0" pick-retry-count="0"/>
+   <part id="R_0805_2012Metric-0.33R" height-units="Millimeters" height="0.6" through-board-depth-units="Millimeters" through-board-depth="0.0" package-id="R_0805_2012Metric" speed="1.0" pick-retry-count="0"/>
+   <part id="R_0805_2012Metric-220R" height-units="Millimeters" height="0.5" through-board-depth-units="Millimeters" through-board-depth="0.0" package-id="R_0805_2012Metric" speed="1.0" pick-retry-count="0"/>
+   <part id="R_0805_2012Metric-20R" height-units="Millimeters" height="0.5" through-board-depth-units="Millimeters" through-board-depth="0.0" package-id="R_0805_2012Metric" speed="1.0" pick-retry-count="0"/>
+   <part id="QFN-32-No-Paste-STM32F031K6Ux" height-units="Millimeters" height="0.55" through-board-depth-units="Millimeters" through-board-depth="0.0" package-id="QFN-32-No-Paste" speed="1.0" pick-retry-count="0"/>
+   <part id="SOT-223-3_TabPin2-AP1117-33" height-units="Millimeters" height="1.7" through-board-depth-units="Millimeters" through-board-depth="0.0" package-id="SOT-223-3_TabPin2" speed="1.0" pick-retry-count="0"/>
+   <part id="SOIC-8_3.9x4.9mm_P1.27mm-MC34063AD" height-units="Millimeters" height="1.6" through-board-depth-units="Millimeters" through-board-depth="0.0" package-id="SOIC-8_3.9x4.9mm_P1.27mm" speed="1.0" pick-retry-count="0"/>
+   <part id="SOIC-8_3.9x4.9mm_P1.27mm-MAX3078E" height-units="Millimeters" height="1.6" through-board-depth-units="Millimeters" through-board-depth="0.0" package-id="SOIC-8_3.9x4.9mm_P1.27mm" speed="1.0" pick-retry-count="0"/>
+   <part bottom-vision-id="BVS_Stock_R" id="WSON-8-1EP_2x2mm_P0.5mm_EP0.9x1.6mm-DRV8837" height-units="Millimeters" height="0.8" through-board-depth-units="Millimeters" through-board-depth="0.0" package-id="WSON-8-1EP_2x2mm_P0.5mm_EP0.9x1.6mm" speed="1.0" pick-retry-count="0"/>
+   <part id="Crystal_SMD_3225-4Pin_3.2x2.5mm_HandSoldering-8MHz" height-units="Millimeters" height="0.7" through-board-depth-units="Millimeters" through-board-depth="0.0" package-id="Crystal_SMD_3225-4Pin_3.2x2.5mm_HandSoldering" speed="1.0" pick-retry-count="0"/>
 </openpnp-parts>

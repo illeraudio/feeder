@@ -4,7 +4,7 @@
       <placements/>
       <children>
          <object class="org.openpnp.model.BoardLocation" side="Top" id="Brd1" file-name="/home/vh/repos/opulo/feeder/pcb/mobo/openpnp/mobo.board.xml" check-fiducials="false" locally-enabled="true">
-            <location units="Millimeters" x="192.67664202171866" y="222.3458947211455" z="1.8" rotation="0.23466032005175946"/>
+            <location units="Millimeters" x="192.65339995151237" y="222.5099127604626" z="1.8" rotation="0.07176955356831058"/>
          </object>
       </children>
       <pseudo-placement-ids/>
@@ -13,4 +13,5 @@
    <enabled-state-map class="java.util.HashMap"/>
    <check-fiducials-state-map class="java.util.HashMap"/>
    <error-handling-state-map class="java.util.HashMap"/>
+   <error-handling>Alert</error-handling>
 </openpnp-job>
